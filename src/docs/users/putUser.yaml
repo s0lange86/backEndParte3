@@ -1,0 +1,28 @@
+paths:
+  /api/users/{uid}:
+    put:
+      summary: Actualizar usuario
+      description: Actualizamos datos de un usuario que tengamos en nuestra base de datos
+      tags: 
+        - Users
+      parameters:
+        - in: path
+          name: uid
+          required: true
+          description: Id User
+          schema:
+            type: string
+      requestBody:
+        required: true
+        description: User data
+        content:
+            application/json:
+              schema:
+                $ref: "#/components/requestBody/userBody"
+      responses: 
+        200:
+          description: Actualiza un usuario y nos devuelve el resultado de la usuario con los cambios
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Users"

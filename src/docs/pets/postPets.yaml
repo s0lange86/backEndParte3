@@ -1,0 +1,21 @@
+paths:
+  /api/pets:
+    post:
+      summary: Crear mascota
+      description: Creamos una nueva mascota a la base de datos
+      tags: 
+        - Pets
+      requestBody:
+        required: true
+        description: Pet data
+        content:
+            application/json:
+              schema:
+                $ref: "#/components/requestBody/petBody"
+      responses: 
+        201:
+          description: Crea una mascosta y nos devuelve el resultado de la mascota ya creada
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Pets"

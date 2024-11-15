@@ -1,4 +1,4 @@
-import bcrypt from 'bcrypt';
+import bcryptjs from 'bcryptjs';
 import {fileURLToPath} from 'url';
 import { dirname } from 'path';
 
@@ -7,7 +7,8 @@ export const createHash = async(password) =>{
     return bcrypt.hash(password,salts);
 }
 
-export const passwordValidation = async(user,password) => bcrypt.compare(password,user.password);
+export const passwordValidation = async (plainPassword, hashedPassword) =>
+    bcrypt.compare(plainPassword, hashedPassword);
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);

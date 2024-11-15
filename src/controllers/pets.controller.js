@@ -12,7 +12,7 @@ export class PetsController {
         try {
             const pets = await this.petsService.getAll();
             
-            res.send({status:"success",payload:pets})
+            res.status(200).json({status:"success",payload:pets})
             
         } catch (error) {
             next(error);
@@ -27,7 +27,7 @@ export class PetsController {
             const pet = PetDTO.getPetInputFrom({name,specie,birthDate});
             const result = await this.petsService.create(pet);
         
-            res.send({status:"success",payload:result})
+            res.status(201).json({status:"success",payload:result})
 
         } catch (error) {
             next(error);
@@ -40,7 +40,7 @@ export class PetsController {
             const petId = req.params.pid;
             const result = await this.petsService.update(petId,petUpdateBody);
         
-            res.send({status:"success",payload: result})
+            res.status(200).json({status:"success",payload: result})
 
         } catch (error) {
             next(error);

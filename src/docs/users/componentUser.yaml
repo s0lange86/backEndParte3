@@ -1,0 +1,67 @@
+components:
+  schemas:
+    Users:
+      type: array
+      items:
+        properties:
+          _id: 
+            type: string
+            format: ObjectId
+            description: Id del usuario
+          first_name:
+            type: string
+            description: Nombre del usuario
+          last_name:
+            type: string
+            description: Apellido del usuario
+          email:
+            type: string
+            format: email
+            description: Email del usuario
+          password:
+            type: string
+            description: Contraseña del usuario
+          role:
+            type: string
+            description: Rol del usuariario (user o admin)
+          pets:
+            type: array
+            description: Datos de la mascota adoptada
+            items:
+              type: object
+              properties:
+                _id:
+                  type: string
+                  format: ObjectId
+                  description: Id de la mascota
+      example:
+        id: 670dc19e85cd46b489d6f1c3
+        first_name: Solange
+        last_name: Fano
+        email: email@email.com
+        password: abcd1234
+        role: admin
+        pets:
+          - _id: 670dc19e85cd46b489d6f1c0
+  requestBody:
+    userBody:
+      type: object
+      properties:
+        first_name:
+            type: string
+            description: Nombre del usuario
+        last_name:
+            type: string
+            description: Apellido del usuario
+        email:
+            type: string
+            format: email
+            description: Email del usuario
+        password:
+            type: string
+            description: Contraseña del usuario
+      example:
+        first_name: Brian
+        last_name: Corna
+        email: email@email.com
+        password: 1234abcd

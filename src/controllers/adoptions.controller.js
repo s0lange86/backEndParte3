@@ -37,16 +37,17 @@ export class AdoptionControllers {
             
             const user = await this.usersService.getById(uid);
     
-            const pet = await this.petsService.getById({_id:pid});
+            // const pet = await this.petsService.getById({_id:pid});
+            const pet = await this.petsService.getById(pid);
             
             if(pet.adopted) return res.status(400).send({status:"error",error:"Pet is already adopted"});
             user.pets.push(pet._id);
             
             await this.usersService.update(user._id,{pets:user.pets})
             await this.petsService.update(pet._id,{adopted:true,owner:user._id})
-            await this.adoptionsService.create({owner:user._id,pet:pet._id})
+            const adoption = await this.adoptionsService.create({owner:user._id,pet:pet._id})
             
-            res.send({status:"success",message:"Pet adopted"})
+            res.status(201).json({status:"success", payload: adoption})
         } catch (error) {
             next(error);
         }

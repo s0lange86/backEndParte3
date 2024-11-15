@@ -1,0 +1,17 @@
+paths:
+  /api/pets/{pid}:
+    delete:
+      summary: Borrar mascota
+      description: Borramos datos de una mascota que tengamos en nuestra base de datos
+      tags: 
+        - Pets
+      parameters:
+        - in: path
+          name: pid
+          required: true
+          description: Id Pet
+          schema:
+            type: string
+      responses: 
+        200:
+          description: Borramos una mascosta y nos devuelve si pudo eliminar correctamente

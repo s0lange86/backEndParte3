@@ -9,7 +9,7 @@ export class UserControllers {
     getAllUsers = async(req, res, next) => {
         try {
             const users = await this.userServices.getAll();
-            res.send({status:"success",payload:users});
+            res.status(200).json({status:"success",payload:users});
 
         } catch (error) {
             next(error); //hace que se active el middleware "errorHandler" que esta en app.js            
@@ -21,7 +21,27 @@ export class UserControllers {
             const userId = req.params.uid;
             const user = await this.userServices.getById(userId);
 
-            res.send({status:"success",payload:user})
+            res.status(200).json({status:"success",payload:user})
+
+        } catch (error) {
+            next(error);
+        }
+    }
+
+    createUser = async(req, res, next) => {
+        try {
+            const {first_name, last_name, email, password} = req.body;
+            if(!first_name||!last_name||!email||!password) return res.status(400).send({status:"error",error:"Incomplete values"})
+            
+            const user = {
+                first_name: first_name,
+                last_name: last_name,
+                email: email, 
+                password: password
+            };
+            const result = await this.userServices.create(user);
+
+            res.status(201).json({status:"success",payload:result})
 
         } catch (error) {
             next(error);
@@ -36,7 +56,7 @@ export class UserControllers {
             const user = await this.userServices.getById(userId);
             const result = await this.userServices.update(userId,updateBody);
     
-            res.send({status:"success",message:"User updated"})
+            res.status(200).json({status:"success", result})
 
         } catch (error) {
             next(error)

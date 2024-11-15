@@ -1,0 +1,69 @@
+components:
+  schemas:
+    Pets:
+      type: array
+      items:
+        properties:
+          _id: 
+            type: string
+            format: ObjectId
+            description: Id de la mascota
+          name:
+            type: string
+            description: Nombre de la mascota
+          specie:
+            type: string
+            description: Especie de la mascota
+          owner:
+            type: string
+            format: ObjectId
+            description: Id del adoptante
+          birthDate:
+            type: string
+            format: date
+            description: Fecha de nacimiento de la mascota
+          adopted:
+            type: boolean
+            description: Adoptado o no
+          image:
+            type: string
+            format: uri
+            description: Imagen de la mascota
+      example:
+        id: 670dc19e85cd46b489d6f1c3
+        name: Arthas
+        specie: cat
+        adopted: true
+        owner: 670dc19e85cd46b489d6f1c6
+        image: https://img.freepik.com/foto-gratis/gato-rojo-o-blanco-i-estudio-blanco_155003-13189.jpg
+        birthDate: 01-11-2011
+  requestBody:
+    petBody:
+      type: object
+      properties:
+        name:
+            type: string
+            description: Nombre de la mascota
+        specie:
+            type: string
+            description: Especie de la mascota
+        owner:
+            type: string
+            format: ObjectId
+            description: Id del adoptante
+        birthDate:
+            type: string
+            format: date
+            description: Fecha de nacimiento de la mascota
+        adopted:
+            type: boolean
+            description: Adoptado o no
+        image:
+            type: string
+            format: uri
+            description: Imagen de la mascota
+      example:
+        name: Arthas
+        specie: cat
+        adopted: true
+        birthDate: 01-11-2011

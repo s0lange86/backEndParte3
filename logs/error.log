@@ -1,2 +1,23 @@
 2024-10-15 18:26:34 [[31merror[39m]: User id 670dc19e85cd46b489d6f1bb not found
 2024-10-15 18:26:39 [[31merror[39m]: User id 670dc19e85cd46b489d6f1bb not found
+2024-11-13 18:28:52 [[31merror[39m]: Pet id 670dc19e85cd46b489d6f1bf not found
+2024-11-13 19:28:18 [[31merror[39m]: Users validation failed: password: Path `password` is required., last_name: Path `last_name` is required., first_name: Path `first_name` is required.
+2024-11-13 19:34:00 [[31merror[39m]: E11000 duplicate key error collection: adoptme.users index: email_1 dup key: { email: "email@email.com" }
+2024-11-13 19:35:55 [[31merror[39m]: E11000 duplicate key error collection: adoptme.users index: email_1 dup key: { email: "email@email.com" }
+2024-11-13 19:36:23 [[31merror[39m]: E11000 duplicate key error collection: adoptme.users index: email_1 dup key: { email: "email@email.com" }
+2024-11-13 19:40:23 [[31merror[39m]: Users validation failed: last_name: Path `last_name` is required., first_name: Path `first_name` is required.
+2024-11-15 03:36:11 [[31merror[39m]: data and hash arguments required
+2024-11-15 11:08:05 [[31merror[39m]: salts is not defined
+2024-11-15 11:25:27 [[31merror[39m]: E11000 duplicate key error collection: adoptme.users index: email_1 dup key: { email: "email@email.com" }
+2024-11-15 13:03:49 [[31merror[39m]: Cast to ObjectId failed for value ":uid" (type string) at path "_id" for model "Users"
+2024-11-15 13:12:36 [[31merror[39m]: Cast to ObjectId failed for value ":uid" (type string) at path "_id" for model "Users"
+2024-11-15 13:15:22 [[31merror[39m]: Cast to ObjectId failed for value ":uid" (type string) at path "_id" for model "Users"
+2024-11-15 13:20:12 [[31merror[39m]: Cast to ObjectId failed for value ":uid" (type string) at path "_id" for model "Users"
+2024-11-15 13:21:00 [[31merror[39m]: Cast to ObjectId failed for value ":uid" (type string) at path "_id" for model "Users"
+2024-11-15 13:22:58 [[31merror[39m]: Cast to ObjectId failed for value ":uid" (type string) at path "_id" for model "Users"
+2024-11-15 13:23:29 [[31merror[39m]: Cast to ObjectId failed for value ":uid" (type string) at path "_id" for model "Users"
+2024-11-15 13:25:37 [[31merror[39m]: Cast to ObjectId failed for value ":uid" (type string) at path "_id" for model "Users"
+2024-11-15 13:27:31 [[31merror[39m]: Cast to ObjectId failed for value ":uid" (type string) at path "_id" for model "Users"
+2024-11-15 13:28:30 [[31merror[39m]: Cast to ObjectId failed for value ":uid" (type string) at path "_id" for model "Users"
+2024-11-15 13:34:01 [[31merror[39m]: Cast to ObjectId failed for value ":uid" (type string) at path "_id" for model "Users"
+2024-11-15 15:50:37 [[31merror[39m]: Cast to ObjectId failed for value "673797fddf2c58686113ec0d}" (type string) at path "_id" for model "Adoptions"

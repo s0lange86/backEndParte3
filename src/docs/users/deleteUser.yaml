@@ -1,0 +1,17 @@
+paths:
+  /api/users/{uid}:
+    delete:
+      summary: Borrar usuario
+      description: Borramos datos de un usuario que tengamos en nuestra base de datos
+      tags: 
+        - Users
+      parameters:
+        - in: path
+          name: uid
+          required: true
+          description: Id User
+          schema:
+            type: string
+      responses: 
+        200:
+          description: Borramos un usuario y nos devuelve si se eliminó correctamente

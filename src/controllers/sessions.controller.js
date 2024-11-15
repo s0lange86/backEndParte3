@@ -17,17 +17,16 @@ export class SessionsController {
             const exists = await this.usersService.getByEmail(email);
             if (exists) return res.status(400).send({ status: "error", error: "User already exists" });
             
-            const hashedPassword = await createHash(password);
-            
             const user = {
                 first_name,
                 last_name,
                 email,
-                password: hashedPassword,
-            }
-            
-            let result = await this.usersService.create(user);            
-            res.send({ status: "success", payload: result._id });
+                password: await createHash(password)
+                
+            }            
+
+            let result = await this.usersService.create(user);     
+            res.status(201).json({ status: "success", payload: result });
 
         } catch (error) {
             next(error);
@@ -37,12 +36,13 @@ export class SessionsController {
     login = async (req, res, next) => {
         try {
             const { email, password } = req.body;
+
             if (!email || !password) return res.status(400).send({ status: "error", error: "Incomplete values" });
         
             const user = await this.usersService.getByEmail(email);
             if(!user) return res.status(404).send({status:"error",error:"User doesn't exist"});
-        
-            const isValidPassword = await passwordValidation(user,password);
+
+            const isValidPassword = await passwordValidation(password,user.password);
             if(!isValidPassword) return res.status(400).send({status:"error",error:"Incorrect password"});
         
             const userDto = UserDTO.getUserTokenFrom(user);

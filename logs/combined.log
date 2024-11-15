@@ -21,3 +21,243 @@
 2024-10-15 18:26:34 [[31merror[39m]: User id 670dc19e85cd46b489d6f1bb not found
 2024-10-15 18:26:39 [[31merror[39m]: User id 670dc19e85cd46b489d6f1bb not found
 2024-10-15 18:27:36 [[32minfo[39m]: Listening on 8080
+2024-11-12 18:13:05 [[32minfo[39m]: Listening on 8080
+2024-11-12 18:13:07 [[32minfo[39m]: Listening on 8080
+2024-11-12 18:24:40 [[32minfo[39m]: Listening on 8080
+2024-11-12 18:31:40 [[32minfo[39m]: Listening on 8080
+2024-11-12 18:38:05 [[32minfo[39m]: Listening on 8080
+2024-11-12 18:40:10 [[32minfo[39m]: Listening on 8080
+2024-11-12 19:57:16 [[32minfo[39m]: Listening on 8080
+2024-11-12 19:57:18 [[32minfo[39m]: Listening on 8080
+2024-11-12 20:07:03 [[32minfo[39m]: Listening on 8080
+2024-11-12 20:09:34 [[32minfo[39m]: Listening on 8080
+2024-11-12 20:10:27 [[32minfo[39m]: Listening on 8080
+2024-11-12 20:14:23 [[32minfo[39m]: Listening on 8080
+2024-11-12 20:32:43 [[32minfo[39m]: Listening on 8080
+2024-11-12 20:42:50 [[32minfo[39m]: Listening on 8080
+2024-11-12 20:46:42 [[32minfo[39m]: Listening on 8080
+2024-11-12 20:49:25 [[32minfo[39m]: Listening on 8080
+2024-11-12 20:51:32 [[32minfo[39m]: Listening on 8080
+2024-11-12 20:54:03 [[32minfo[39m]: Listening on 8080
+2024-11-12 20:54:42 [[32minfo[39m]: Listening on 8080
+2024-11-12 20:55:27 [[32minfo[39m]: Listening on 8080
+2024-11-12 20:55:51 [[32minfo[39m]: Listening on 8080
+2024-11-12 20:57:15 [[32minfo[39m]: Listening on 8080
+2024-11-12 20:57:17 [[32minfo[39m]: Listening on 8080
+2024-11-12 20:57:19 [[32minfo[39m]: Listening on 8080
+2024-11-12 21:02:34 [[32minfo[39m]: Listening on 8080
+2024-11-12 21:04:31 [[32minfo[39m]: Listening on 8080
+2024-11-12 21:04:54 [[32minfo[39m]: Listening on 8080
+2024-11-12 21:07:03 [[32minfo[39m]: Listening on 8080
+2024-11-12 21:14:58 [[32minfo[39m]: Listening on 8080
+2024-11-12 21:15:19 [[32minfo[39m]: Listening on 8080
+2024-11-12 21:17:12 [[32minfo[39m]: Listening on 8080
+2024-11-12 21:29:50 [[32minfo[39m]: Listening on 8080
+2024-11-12 21:38:16 [[32minfo[39m]: Listening on 8080
+2024-11-12 21:42:01 [[32minfo[39m]: Listening on 8080
+2024-11-12 21:46:51 [[32minfo[39m]: Listening on 8080
+2024-11-12 21:47:57 [[32minfo[39m]: Listening on 8080
+2024-11-12 21:48:08 [[32minfo[39m]: Listening on 8080
+2024-11-13 15:44:09 [[32minfo[39m]: Listening on 8080
+2024-11-13 15:44:11 [[32minfo[39m]: Listening on 8080
+2024-11-13 17:23:38 [[32minfo[39m]: Listening on 8080
+2024-11-13 17:23:39 [[32minfo[39m]: Listening on 8080
+2024-11-13 17:58:56 [[32minfo[39m]: Listening on 8080
+2024-11-13 17:59:39 [[32minfo[39m]: Listening on 8080
+2024-11-13 18:01:27 [[32minfo[39m]: Listening on 8080
+2024-11-13 18:10:11 [[32minfo[39m]: Listening on 8080
+2024-11-13 18:16:30 [[32minfo[39m]: Listening on 8080
+2024-11-13 18:19:05 [[32minfo[39m]: Listening on 8080
+2024-11-13 18:20:27 [[32minfo[39m]: Listening on 8080
+2024-11-13 18:21:21 [[32minfo[39m]: Listening on 8080
+2024-11-13 18:26:30 [[32minfo[39m]: Listening on 8080
+2024-11-13 18:28:52 [[31merror[39m]: Pet id 670dc19e85cd46b489d6f1bf not found
+2024-11-13 18:28:54 [[32minfo[39m]: Listening on 8080
+2024-11-13 18:33:14 [[32minfo[39m]: Listening on 8080
+2024-11-13 18:34:00 [[32minfo[39m]: Listening on 8080
+2024-11-13 18:42:01 [[32minfo[39m]: Listening on 8080
+2024-11-13 18:45:10 [[32minfo[39m]: Listening on 8080
+2024-11-13 18:45:27 [[32minfo[39m]: Listening on 8080
+2024-11-13 18:53:08 [[32minfo[39m]: Listening on 8080
+2024-11-13 18:57:28 [[32minfo[39m]: Listening on 8080
+2024-11-13 18:59:50 [[32minfo[39m]: Listening on 8080
+2024-11-13 19:01:19 [[32minfo[39m]: Listening on 8080
+2024-11-13 19:03:51 [[32minfo[39m]: Listening on 8080
+2024-11-13 19:04:02 [[32minfo[39m]: Listening on 8080
+2024-11-13 19:18:51 [[32minfo[39m]: Listening on 8080
+2024-11-13 19:19:34 [[32minfo[39m]: Listening on 8080
+2024-11-13 19:23:15 [[32minfo[39m]: Listening on 8080
+2024-11-13 19:23:49 [[32minfo[39m]: Listening on 8080
+2024-11-13 19:25:48 [[32minfo[39m]: Listening on 8080
+2024-11-13 19:26:45 [[32minfo[39m]: Listening on 8080
+2024-11-13 19:27:53 [[32minfo[39m]: Listening on 8080
+2024-11-13 19:28:18 [[31merror[39m]: Users validation failed: password: Path `password` is required., last_name: Path `last_name` is required., first_name: Path `first_name` is required.
+2024-11-13 19:33:25 [[32minfo[39m]: Listening on 8080
+2024-11-13 19:34:00 [[31merror[39m]: E11000 duplicate key error collection: adoptme.users index: email_1 dup key: { email: "email@email.com" }
+2024-11-13 19:34:02 [[32minfo[39m]: Listening on 8080
+2024-11-13 19:35:04 [[32minfo[39m]: Listening on 8080
+2024-11-13 19:35:55 [[31merror[39m]: E11000 duplicate key error collection: adoptme.users index: email_1 dup key: { email: "email@email.com" }
+2024-11-13 19:36:23 [[31merror[39m]: E11000 duplicate key error collection: adoptme.users index: email_1 dup key: { email: "email@email.com" }
+2024-11-13 19:36:35 [[32minfo[39m]: Listening on 8080
+2024-11-13 19:38:45 [[32minfo[39m]: Listening on 8080
+2024-11-13 19:39:58 [[32minfo[39m]: Listening on 8080
+2024-11-13 19:40:03 [[32minfo[39m]: Listening on 8080
+2024-11-13 19:40:23 [[31merror[39m]: Users validation failed: last_name: Path `last_name` is required., first_name: Path `first_name` is required.
+2024-11-13 19:45:21 [[32minfo[39m]: Listening on 8080
+2024-11-14 21:02:49 [[32minfo[39m]: Listening on 8080
+2024-11-14 21:11:15 [[32minfo[39m]: Listening on 8080
+2024-11-14 21:20:52 [[32minfo[39m]: Listening on 8080
+2024-11-14 21:25:48 [[32minfo[39m]: Listening on 8080
+2024-11-14 21:28:02 [[32minfo[39m]: Listening on 8080
+2024-11-14 21:32:03 [[32minfo[39m]: Listening on 8080
+2024-11-14 21:35:06 [[32minfo[39m]: Listening on 8080
+2024-11-14 21:56:51 [[32minfo[39m]: Listening on 8080
+2024-11-15 01:25:29 [[32minfo[39m]: Listening on 8080
+2024-11-15 01:26:12 [[32minfo[39m]: Listening on 8080
+2024-11-15 01:29:37 [[32minfo[39m]: Listening on 8080
+2024-11-15 01:35:04 [[32minfo[39m]: Listening on 8080
+2024-11-15 01:35:42 [[32minfo[39m]: Listening on 8080
+2024-11-15 01:35:58 [[32minfo[39m]: Listening on 8080
+2024-11-15 01:37:49 [[32minfo[39m]: Listening on 8080
+2024-11-15 01:39:11 [[32minfo[39m]: Listening on 8080
+2024-11-15 02:03:15 [[32minfo[39m]: Listening on 8080
+2024-11-15 02:04:32 [[32minfo[39m]: Listening on 8080
+2024-11-15 02:05:34 [[32minfo[39m]: Listening on 8080
+2024-11-15 02:06:17 [[32minfo[39m]: Listening on 8080
+2024-11-15 02:06:52 [[32minfo[39m]: Listening on 8080
+2024-11-15 02:16:36 [[32minfo[39m]: Listening on 8080
+2024-11-15 02:19:56 [[32minfo[39m]: Listening on 8080
+2024-11-15 02:21:32 [[32minfo[39m]: Listening on 8080
+2024-11-15 02:22:01 [[32minfo[39m]: Listening on 8080
+2024-11-15 02:22:38 [[32minfo[39m]: Listening on 8080
+2024-11-15 02:25:29 [[32minfo[39m]: Listening on 8080
+2024-11-15 02:25:31 [[32minfo[39m]: Listening on 8080
+2024-11-15 02:25:52 [[32minfo[39m]: Listening on 8080
+2024-11-15 02:28:23 [[32minfo[39m]: Listening on 8080
+2024-11-15 02:28:26 [[32minfo[39m]: Listening on 8080
+2024-11-15 02:29:13 [[32minfo[39m]: Listening on 8080
+2024-11-15 02:29:28 [[32minfo[39m]: Listening on 8080
+2024-11-15 02:30:04 [[32minfo[39m]: Listening on 8080
+2024-11-15 02:31:38 [[32minfo[39m]: Listening on 8080
+2024-11-15 02:40:34 [[32minfo[39m]: Listening on 8080
+2024-11-15 02:40:41 [[32minfo[39m]: Listening on 8080
+2024-11-15 02:42:07 [[32minfo[39m]: Listening on 8080
+2024-11-15 02:45:23 [[32minfo[39m]: Listening on 8080
+2024-11-15 02:56:09 [[32minfo[39m]: Listening on 8080
+2024-11-15 02:58:50 [[32minfo[39m]: Listening on 8080
+2024-11-15 02:59:28 [[32minfo[39m]: Listening on 8080
+2024-11-15 02:59:59 [[32minfo[39m]: Listening on 8080
+2024-11-15 03:05:36 [[32minfo[39m]: Listening on 8080
+2024-11-15 03:09:23 [[32minfo[39m]: Listening on 8080
+2024-11-15 03:10:59 [[32minfo[39m]: Listening on 8080
+2024-11-15 03:16:59 [[32minfo[39m]: Listening on 8080
+2024-11-15 03:18:46 [[32minfo[39m]: Listening on 8080
+2024-11-15 03:30:02 [[32minfo[39m]: Listening on 8080
+2024-11-15 03:30:14 [[32minfo[39m]: Listening on 8080
+2024-11-15 03:36:01 [[32minfo[39m]: Listening on 8080
+2024-11-15 03:36:11 [[31merror[39m]: data and hash arguments required
+2024-11-15 03:37:42 [[32minfo[39m]: Listening on 8080
+2024-11-15 03:39:10 [[32minfo[39m]: Listening on 8080
+2024-11-15 03:42:13 [[32minfo[39m]: Listening on 8080
+2024-11-15 03:52:59 [[32minfo[39m]: Listening on 8080
+2024-11-15 03:53:44 [[32minfo[39m]: Listening on 8080
+2024-11-15 10:46:33 [[32minfo[39m]: Listening on 8080
+2024-11-15 10:48:54 [[32minfo[39m]: Listening on 8080
+2024-11-15 10:49:26 [[32minfo[39m]: Listening on 8080
+2024-11-15 10:54:29 [[32minfo[39m]: Listening on 8080
+2024-11-15 10:55:26 [[32minfo[39m]: Listening on 8080
+2024-11-15 10:56:15 [[32minfo[39m]: Listening on 8080
+2024-11-15 10:58:23 [[32minfo[39m]: Listening on 8080
+2024-11-15 11:03:18 [[32minfo[39m]: Listening on 8080
+2024-11-15 11:08:05 [[31merror[39m]: salts is not defined
+2024-11-15 11:09:07 [[32minfo[39m]: Listening on 8080
+2024-11-15 11:14:09 [[32minfo[39m]: Listening on 8080
+2024-11-15 11:19:07 [[32minfo[39m]: Listening on 8080
+2024-11-15 11:21:40 [[32minfo[39m]: Listening on 8080
+2024-11-15 11:22:26 [[32minfo[39m]: Listening on 8080
+2024-11-15 11:24:09 [[32minfo[39m]: Listening on 8080
+2024-11-15 11:24:29 [[32minfo[39m]: Listening on 8080
+2024-11-15 11:25:27 [[31merror[39m]: E11000 duplicate key error collection: adoptme.users index: email_1 dup key: { email: "email@email.com" }
+2024-11-15 11:28:56 [[32minfo[39m]: Listening on 8080
+2024-11-15 11:30:10 [[32minfo[39m]: Listening on 8080
+2024-11-15 11:32:08 [[32minfo[39m]: Listening on 8080
+2024-11-15 11:32:22 [[32minfo[39m]: Listening on 8080
+2024-11-15 11:50:46 [[32minfo[39m]: Listening on 8080
+2024-11-15 11:56:38 [[32minfo[39m]: Listening on 8080
+2024-11-15 11:56:48 [[32minfo[39m]: Listening on 8080
+2024-11-15 11:57:53 [[32minfo[39m]: Listening on 8080
+2024-11-15 12:00:48 [[32minfo[39m]: Listening on 8080
+2024-11-15 12:22:05 [[32minfo[39m]: Listening on 8080
+2024-11-15 12:22:41 [[32minfo[39m]: Listening on 8080
+2024-11-15 12:25:12 [[32minfo[39m]: Listening on 8080
+2024-11-15 12:38:09 [[32minfo[39m]: Listening on 8080
+2024-11-15 12:51:49 [[32minfo[39m]: Listening on 8080
+2024-11-15 12:51:54 [[32minfo[39m]: Listening on 8080
+2024-11-15 13:00:03 [[32minfo[39m]: Listening on 8080
+2024-11-15 13:02:19 [[32minfo[39m]: Listening on 8080
+2024-11-15 13:02:27 [[32minfo[39m]: Listening on 8080
+2024-11-15 13:03:49 [[31merror[39m]: Cast to ObjectId failed for value ":uid" (type string) at path "_id" for model "Users"
+2024-11-15 13:11:19 [[32minfo[39m]: Listening on 8080
+2024-11-15 13:12:36 [[31merror[39m]: Cast to ObjectId failed for value ":uid" (type string) at path "_id" for model "Users"
+2024-11-15 13:13:01 [[32minfo[39m]: Listening on 8080
+2024-11-15 13:15:22 [[31merror[39m]: Cast to ObjectId failed for value ":uid" (type string) at path "_id" for model "Users"
+2024-11-15 13:20:12 [[31merror[39m]: Cast to ObjectId failed for value ":uid" (type string) at path "_id" for model "Users"
+2024-11-15 13:21:00 [[31merror[39m]: Cast to ObjectId failed for value ":uid" (type string) at path "_id" for model "Users"
+2024-11-15 13:22:50 [[32minfo[39m]: Listening on 8080
+2024-11-15 13:22:58 [[31merror[39m]: Cast to ObjectId failed for value ":uid" (type string) at path "_id" for model "Users"
+2024-11-15 13:23:29 [[31merror[39m]: Cast to ObjectId failed for value ":uid" (type string) at path "_id" for model "Users"
+2024-11-15 13:25:28 [[32minfo[39m]: Listening on 8080
+2024-11-15 13:25:37 [[31merror[39m]: Cast to ObjectId failed for value ":uid" (type string) at path "_id" for model "Users"
+2024-11-15 13:27:31 [[31merror[39m]: Cast to ObjectId failed for value ":uid" (type string) at path "_id" for model "Users"
+2024-11-15 13:27:50 [[32minfo[39m]: Listening on 8080
+2024-11-15 13:28:30 [[31merror[39m]: Cast to ObjectId failed for value ":uid" (type string) at path "_id" for model "Users"
+2024-11-15 13:33:12 [[32minfo[39m]: Listening on 8080
+2024-11-15 13:34:01 [[31merror[39m]: Cast to ObjectId failed for value ":uid" (type string) at path "_id" for model "Users"
+2024-11-15 13:49:44 [[32minfo[39m]: Listening on 8080
+2024-11-15 13:51:48 [[32minfo[39m]: Listening on 8080
+2024-11-15 13:51:50 [[32minfo[39m]: Listening on 8080
+2024-11-15 13:52:01 [[32minfo[39m]: Listening on 8080
+2024-11-15 14:06:24 [[32minfo[39m]: Listening on 8080
+2024-11-15 14:07:43 [[32minfo[39m]: Listening on 8080
+2024-11-15 14:07:49 [[32minfo[39m]: Listening on 8080
+2024-11-15 14:09:39 [[32minfo[39m]: Listening on 8080
+2024-11-15 14:10:12 [[32minfo[39m]: Listening on 8080
+2024-11-15 14:11:25 [[32minfo[39m]: Listening on 8080
+2024-11-15 14:14:55 [[32minfo[39m]: Listening on 8080
+2024-11-15 14:17:02 [[32minfo[39m]: Listening on 8080
+2024-11-15 14:20:21 [[32minfo[39m]: Listening on 8080
+2024-11-15 14:23:47 [[32minfo[39m]: Listening on 8080
+2024-11-15 14:27:27 [[32minfo[39m]: Listening on 8080
+2024-11-15 14:33:25 [[32minfo[39m]: Listening on 8080
+2024-11-15 14:37:34 [[32minfo[39m]: Listening on 8080
+2024-11-15 14:40:05 [[32minfo[39m]: Listening on 8080
+2024-11-15 14:40:17 [[32minfo[39m]: Listening on 8080
+2024-11-15 14:48:04 [[32minfo[39m]: Listening on 8080
+2024-11-15 14:48:33 [[32minfo[39m]: Listening on 8080
+2024-11-15 14:49:23 [[32minfo[39m]: Listening on 8080
+2024-11-15 14:50:48 [[32minfo[39m]: Listening on 8080
+2024-11-15 14:51:48 [[32minfo[39m]: Listening on 8080
+2024-11-15 14:51:51 [[32minfo[39m]: Listening on 8080
+2024-11-15 14:52:18 [[32minfo[39m]: Listening on 8080
+2024-11-15 14:53:24 [[32minfo[39m]: Listening on 8080
+2024-11-15 14:53:56 [[32minfo[39m]: Listening on 8080
+2024-11-15 15:02:11 [[32minfo[39m]: Listening on 8080
+2024-11-15 15:04:37 [[32minfo[39m]: Listening on 8080
+2024-11-15 15:15:44 [[32minfo[39m]: Listening on 8080
+2024-11-15 15:16:28 [[32minfo[39m]: Listening on 8080
+2024-11-15 15:16:34 [[32minfo[39m]: Listening on 8080
+2024-11-15 15:20:54 [[32minfo[39m]: Listening on 8080
+2024-11-15 15:21:23 [[32minfo[39m]: Listening on 8080
+2024-11-15 15:22:58 [[32minfo[39m]: Listening on 8080
+2024-11-15 15:30:09 [[32minfo[39m]: Listening on 8080
+2024-11-15 15:30:28 [[32minfo[39m]: Listening on 8080
+2024-11-15 15:31:07 [[32minfo[39m]: Listening on 8080
+2024-11-15 15:33:10 [[32minfo[39m]: Listening on 8080
+2024-11-15 15:34:49 [[32minfo[39m]: Listening on 8080
+2024-11-15 15:34:56 [[32minfo[39m]: Listening on 8080
+2024-11-15 15:35:10 [[32minfo[39m]: Listening on 8080
+2024-11-15 15:36:35 [[32minfo[39m]: Listening on 8080
+2024-11-15 15:37:44 [[32minfo[39m]: Listening on 8080
+2024-11-15 15:50:37 [[31merror[39m]: Cast to ObjectId failed for value "673797fddf2c58686113ec0d}" (type string) at path "_id" for model "Adoptions"
+2024-11-15 15:52:08 [[32minfo[39m]: Listening on 8080
+2024-11-15 15:54:35 [[32minfo[39m]: Listening on 8080

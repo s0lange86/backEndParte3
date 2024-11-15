@@ -10,7 +10,7 @@ const router = Router();
 
 router.use('/users',usersRouter);
 router.use('/pets',petsRouter);
-router.use('/apadoptions',adoptionsRouter);
+router.use('/adoptions',adoptionsRouter);
 router.use('/sessions',sessionsRouter);
 router.use('/mocks', mocksRouter);
 

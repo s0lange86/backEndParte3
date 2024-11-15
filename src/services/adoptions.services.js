@@ -7,32 +7,32 @@ export class AdoptionServices {
     }
 
     async getAll() {
-        const adoptions = this.adoptionDao.getAll();
+        const adoptions = await this.adoptionDao.getAll();
         return adoptions;
     }
 
     async getById(id) {
-        const adoption = this.adoptionDao.getById(id);
+        const adoption = await this.adoptionDao.getById(id);
         if(!adoption) throw customError.notFoundError(`Adoption id ${id} not found`)
         return adoption;
     }
 
     async create(data) {
-        const adoption = this.adoptionDao.save(data);
+        const adoption = await this.adoptionDao.save(data);
         return adoption;
     }
 
-    async create(data) {
-        const adoptions = this.adoptionDao.saveMany(data)
+    async createMany(data) {
+        const adoptions = await this.adoptionDao.saveMany(data)
     }
 
     async updateAdoption(id, data) {
-        const adoption = this.adoptionDao.update(id, data);
+        const adoption = await this.adoptionDao.update(id, data);
         return adoption;
     }
 
     async deleteAdoption(id) {
-        const adoption = this.adoptionDao.delete(id);
+        const adoption = await this.adoptionDao.delete(id);
         return adoption;
     }
 }
